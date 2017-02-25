@@ -1,0 +1,16 @@
+I first changed the number of iterations and ngrid in jacobi.f90 so that it
+would run for about 5 minutes in pure MPI node (i.e., OMP_NUM_THREADS=1). I then
+reran using 1, 2, 4, 8, 16, and 32 OpenMP threads. I set a time limit of 10
+minutes, so the job didn't finish in 10 minutes, the runtime provided below is
+an extrapolation based on the fraction of the iterations it finished in 10
+minutes. 
+
+
+OMP_NUM_THREADS         runtime
+----------------------------------
+1                       4:46
+2                       4:50 
+4                       4:56
+8                       6:32
+16                     11:20
+32
