@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ipm_job_profile>
+<calltable nsections="1" >
+<section module="MPI" nentries="56" >
+<entry name="MPI_Init" />
+<entry name="MPI_Init_thread" />
+<entry name="MPI_Finalize" />
+<entry name="MPI_Comm_rank" />
+<entry name="MPI_Comm_size" />
+<entry name="MPI_Send" />
+<entry name="MPI_Ssend" />
+<entry name="MPI_Rsend" />
+<entry name="MPI_Bsend" />
+<entry name="MPI_Isend" />
+<entry name="MPI_Issend" />
+<entry name="MPI_Irsend" />
+<entry name="MPI_Ibsend" />
+<entry name="MPI_Recv" />
+<entry name="MPI_Irecv" />
+<entry name="MPI_Sendrecv" />
+<entry name="MPI_Sendrecv_replace" />
+<entry name="MPI_Wait" />
+<entry name="MPI_Waitany" />
+<entry name="MPI_Waitall" />
+<entry name="MPI_Waitsome" />
+<entry name="MPI_Probe" />
+<entry name="MPI_Iprobe" />
+<entry name="MPI_Send_init" />
+<entry name="MPI_Ssend_init" />
+<entry name="MPI_Rsend_init" />
+<entry name="MPI_Bsend_init" />
+<entry name="MPI_Recv_init" />
+<entry name="MPI_Buffer_attach" />
+<entry name="MPI_Buffer_detach" />
+<entry name="MPI_Test" />
+<entry name="MPI_Testany" />
+<entry name="MPI_Testall" />
+<entry name="MPI_Testsome" />
+<entry name="MPI_Start" />
+<entry name="MPI_Startall" />
+<entry name="MPI_Bcast" />
+<entry name="MPI_Reduce" />
+<entry name="MPI_Reduce_scatter" />
+<entry name="MPI_Barrier" />
+<entry name="MPI_Gather" />
+<entry name="MPI_Gatherv" />
+<entry name="MPI_Scatter" />
+<entry name="MPI_Scatterv" />
+<entry name="MPI_Scan" />
+<entry name="MPI_Allgather" />
+<entry name="MPI_Allgatherv" />
+<entry name="MPI_Allreduce" />
+<entry name="MPI_Alltoall" />
+<entry name="MPI_Alltoallv" />
+<entry name="MPI_Comm_group" />
+<entry name="MPI_Comm_compare" />
+<entry name="MPI_Comm_dup" />
+<entry name="MPI_Comm_create" />
+<entry name="MPI_Comm_split" />
+<entry name="MPI_Comm_free" />
+</section>
+</calltable>
+<task ipm_version="2.0.5" cookie="nocookie" mpi_rank="0" mpi_size="2" stamp_init="1488845716.975136" stamp_final="1488845865.344204" username="klarsen" allocationname="unknown" flags="0" pid="48962" >
+<job nhosts="1" ntasks="2" start="1488845716" final="1488845865" cookie="nocookie" code="unknown" >3981440</job>
+<host mach_name="x86_64" mach_info="x86_64_Linux" >nid00168</host>
+<perf wtime="1.48369e+02" utime="1.48020e+02" stime="2.52000e-01" mtime="2.46496e+00" gflop="0.00000e+00" gbyte="5.66254e-01" ></perf>
+<modules nmod="1">
+<module name="MPI" time="2.46496e+00" ></module>
+</modules>
+<switch bytes_tx="0.00000e+00" bytes_rx="0.00000e+00" ></switch>
+<cmdline realpath="/global/u1/k/klarsen/ASTRO250/HW2/new_code/jacobi" md5sum="b5f9fd77d9001f0000004100d900ff7fff" >/global/u1/k/klarsen/ASTRO250/HW2/new_code/./jacobi </cmdline>
+<regions n="1" >
+<region label="ipm_noregion" nexits="1" wtime="1.48306e+02" utime="1.47980e+02" stime="2.44000e-01" mtime="2.46496e+00" id="0" >
+<modules nmod="1">
+<module name="MPI" time="2.46496e+00" ></module>
+</modules>
+<hpm api="PAPI" ncounter="0" eventset="0" gflop="0.00000e+00">
+</hpm>
+<func name="MPI_Init" count="1" bytes="0.0000e+00" > 0.0000e+00 </func>
+<func name="MPI_Finalize" count="1" bytes="0.0000e+00" > 0.0000e+00 </func>
+<func name="MPI_Comm_rank" count="2404" bytes="0.0000e+00" > 5.4336e-04 </func>
+<func name="MPI_Comm_size" count="2404" bytes="0.0000e+00" > 1.6696e-03 </func>
+<func name="MPI_Sendrecv" count="2400" bytes="7.8643e+07" > 4.5365e-02 </func>
+<func name="MPI_Bcast" count="4" bytes="1.6000e+01" > 0.0000e+00 </func>
+<func name="MPI_Allreduce" count="1200" bytes="4.8000e+03" > 2.4174e+00 </func>
+</region>
+</regions>
+<internal rank="0" log_i="1488845865.344204" log_t="1.4888e+09" report_delta="-1.0000e+00" fname="./klarsen.1488845716.ipm.xml" logrank="0" ></internal>
+</task>
+<task ipm_version="2.0.5" cookie="nocookie" mpi_rank="1" mpi_size="2" stamp_init="1488845716.975092" stamp_final="1488845865.341698" username="klarsen" allocationname="unknown" flags="0" pid="48963" >
+<job nhosts="1" ntasks="2" start="1488845716" final="1488845865" cookie="nocookie" code="unknown" >3981440</job>
+<host mach_name="x86_64" mach_info="x86_64_Linux" >nid00168</host>
+<perf wtime="1.48367e+02" utime="1.48032e+02" stime="2.32000e-01" mtime="1.20608e-01" gflop="0.00000e+00" gbyte="5.66254e-01" ></perf>
+<modules nmod="1">
+<module name="MPI" time="2.46496e+00" ></module>
+</modules>
+<switch bytes_tx="0.00000e+00" bytes_rx="0.00000e+00" ></switch>
+<cmdline realpath="/global/u1/k/klarsen/ASTRO250/HW2/new_code/jacobi" md5sum="b5f9fd77d9001f0000004100d900ff7fff" >/global/u1/k/klarsen/ASTRO250/HW2/new_code/./jacobi </cmdline>
+<regions n="1" >
+<region label="ipm_noregion" nexits="1" wtime="1.48303e+02" utime="1.47996e+02" stime="2.20000e-01" mtime="1.20608e-01" id="0" >
+<modules nmod="1">
+<module name="MPI" time="2.46496e+00" ></module>
+</modules>
+<hpm api="PAPI" ncounter="0" eventset="0" gflop="0.00000e+00">
+</hpm>
+<func name="MPI_Init" count="1" bytes="0.0000e+00" > 0.0000e+00 </func>
+<func name="MPI_Finalize" count="1" bytes="0.0000e+00" > 0.0000e+00 </func>
+<func name="MPI_Comm_rank" count="2404" bytes="0.0000e+00" > 3.4213e-04 </func>
+<func name="MPI_Comm_size" count="2404" bytes="0.0000e+00" > 1.9798e-03 </func>
+<func name="MPI_Sendrecv" count="2400" bytes="7.8643e+07" > 1.1065e-01 </func>
+<func name="MPI_Bcast" count="4" bytes="1.6000e+01" > 2.1458e-06 </func>
+<func name="MPI_Allreduce" count="1200" bytes="4.8000e+03" > 7.6306e-03 </func>
+</region>
+</regions>
+<internal rank="1" log_i="1488845865.341698" log_t="1.4888e+09" report_delta="-1.0000e+00" fname="./klarsen.1488845716.ipm.xml" logrank="0" ></internal>
+</task>
+</ipm_job_profile>
