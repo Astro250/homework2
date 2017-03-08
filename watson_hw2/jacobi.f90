@@ -89,6 +89,8 @@ program jacobi_mpiomp
   enddo
 
   deallocate(u, unew, f)
+  print *,  "k", k
+  print *,  "diffnorm", diffnorm
 
   call mpi_finalize(ierr)
 
@@ -113,7 +115,7 @@ subroutine read_params(ngrid,maxiter,tol,omega)
 !   Default values
 
     ngrid   = 10000
-    maxiter = 1000
+    maxiter = 1500
     tol     = 1.e-3
     omega   = 0.75
 
