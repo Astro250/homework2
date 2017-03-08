@@ -1,0 +1,1 @@
+CC -o int_exp -fopenmp int_exp.cxx -lm

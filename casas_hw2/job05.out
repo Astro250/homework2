@@ -1,0 +1,678 @@
+ ERROR: ngrid must be divisible by the number of images
+ ERROR: ngrid must be divisible by the number of images
+ ERROR: ngrid must be divisible by the number of images
+ ERROR: ngrid must be divisible by the number of images
+ ERROR: ngrid must be divisible by the number of images
+ ERROR: ngrid must be divisible by the number of images
+ ERROR: ngrid must be divisible by the number of images
+ ERROR: ngrid must be divisible by the number of images
+Rank 7 [Tue Mar  7 23:02:37 2017] [c0-0c1s5n0] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 7
+Rank 4 [Tue Mar  7 23:02:37 2017] [c0-0c1s4n1] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 4
+Rank 0 [Tue Mar  7 23:02:37 2017] [c0-0c1s3n1] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+Rank 6 [Tue Mar  7 23:02:37 2017] [c0-0c1s4n3] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 6
+Rank 1 [Tue Mar  7 23:02:37 2017] [c0-0c1s3n2] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 1
+Rank 5 [Tue Mar  7 23:02:37 2017] [c0-0c1s4n2] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 5
+Rank 2 [Tue Mar  7 23:02:37 2017] [c0-0c1s3n3] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 2
+ ERROR: ngrid must be divisible by the number of images
+ ERROR: ngrid must be divisible by the number of images
+ ERROR: ngrid must be divisible by the number of images
+ ERROR: ngrid must be divisible by the number of images
+ ERROR: ngrid must be divisible by the number of images
+ ERROR: ngrid must be divisible by the number of images
+ ERROR: ngrid must be divisible by the number of images
+ ERROR: ngrid must be divisible by the number of images
+ ERROR: ngrid must be divisible by the number of images
+ ERROR: ngrid must be divisible by the number of images
+ ERROR: ngrid must be divisible by the number of images
+ ERROR: ngrid must be divisible by the number of images
+ ERROR: ngrid must be divisible by the number of images
+ ERROR: ngrid must be divisible by the number of images
+ ERROR: ngrid must be divisible by the number of images
+ ERROR: ngrid must be divisible by the number of images
+ ERROR: ngrid must be divisible by the number of images
+ ERROR: ngrid must be divisible by the number of images
+ ERROR: ngrid must be divisible by the number of images
+ ERROR: ngrid must be divisible by the number of images
+ ERROR: ngrid must be divisible by the number of images
+ ERROR: ngrid must be divisible by the number of images
+ ERROR: ngrid must be divisible by the number of images
+ ERROR: ngrid must be divisible by the number of images
+Rank 26 [Tue Mar  7 23:02:37 2017] [c0-0c1s10n2] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 26
+Rank 21 [Tue Mar  7 23:02:37 2017] [c0-0c1s8n3] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 21
+Rank 30 [Tue Mar  7 23:02:37 2017] [c0-0c1s11n2] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 30
+Rank 19 [Tue Mar  7 23:02:37 2017] [c0-0c1s8n0] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 19
+Rank 22 [Tue Mar  7 23:02:37 2017] [c0-0c1s9n0] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 22
+Rank 15 [Tue Mar  7 23:02:37 2017] [c0-0c1s7n0] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 15
+Rank 28 [Tue Mar  7 23:02:37 2017] [c0-0c1s11n0] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 28
+Rank 20 [Tue Mar  7 23:02:37 2017] [c0-0c1s8n2] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 20
+Rank 29 [Tue Mar  7 23:02:37 2017] [c0-0c1s11n1] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 29
+Rank 25 [Tue Mar  7 23:02:37 2017] [c0-0c1s10n1] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 25
+Rank 11 [Tue Mar  7 23:02:37 2017] [c0-0c1s6n0] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 11
+Rank 18 [Tue Mar  7 23:02:37 2017] [c0-0c1s7n3] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 18
+Rank 9 [Tue Mar  7 23:02:37 2017] [c0-0c1s5n2] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 9
+Rank 10 [Tue Mar  7 23:02:37 2017] [c0-0c1s5n3] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 10
+Rank 17 [Tue Mar  7 23:02:37 2017] [c0-0c1s7n2] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 17
+Rank 16 [Tue Mar  7 23:02:37 2017] [c0-0c1s7n1] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 16
+Rank 8 [Tue Mar  7 23:02:37 2017] [c0-0c1s5n1] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 8
+Rank 27 [Tue Mar  7 23:02:37 2017] [c0-0c1s10n3] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 27
+Rank 31 [Tue Mar  7 23:02:37 2017] [c0-0c1s13n1] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 31
+Rank 13 [Tue Mar  7 23:02:37 2017] [c0-0c1s6n2] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 13
+Rank 12 [Tue Mar  7 23:02:37 2017] [c0-0c1s6n1] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 12
+Rank 14 [Tue Mar  7 23:02:37 2017] [c0-0c1s6n3] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 14
+Rank 24 [Tue Mar  7 23:02:37 2017] [c0-0c1s10n0] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 24
+Rank 23 [Tue Mar  7 23:02:37 2017] [c0-0c1s9n3] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 23
+Rank 3 [Tue Mar  7 23:02:37 2017] [c0-0c1s4n0] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 3
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+jacobi             00000000006D6131  Unknown               Unknown  Unknown
+jacobi             00000000006D426B  Unknown               Unknown  Unknown
+jacobi             000000000068EC14  Unknown               Unknown  Unknown
+jacobi             000000000068EA26  Unknown               Unknown  Unknown
+jacobi             000000000066AF26  Unknown               Unknown  Unknown
+jacobi             000000000066FE14  Unknown               Unknown  Unknown
+jacobi             0000000000431B20  Unknown               Unknown  Unknown
+jacobi             000000000065237B  Unknown               Unknown  Unknown
+jacobi             00000000006F6A88  Unknown               Unknown  Unknown
+jacobi             0000000000474C22  Unknown               Unknown  Unknown
+jacobi             00000000004439F9  Unknown               Unknown  Unknown
+jacobi             000000000040F205  Unknown               Unknown  Unknown
+jacobi             000000000040D3C7  Unknown               Unknown  Unknown
+jacobi             0000000000668342  Unknown               Unknown  Unknown
+jacobi             00000000006F0A10  Unknown               Unknown  Unknown
+jacobi             000000000040A7D7  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+jacobi             00000000006D6131  Unknown               Unknown  Unknown
+jacobi             00000000006D426B  Unknown               Unknown  Unknown
+jacobi             000000000068EC14  Unknown               Unknown  Unknown
+jacobi             000000000068EA26  Unknown               Unknown  Unknown
+jacobi             000000000066AF26  Unknown               Unknown  Unknown
+jacobi             000000000066FE14  Unknown               Unknown  Unknown
+jacobi             0000000000431B20  Unknown               Unknown  Unknown
+jacobi             000000000065237B  Unknown               Unknown  Unknown
+jacobi             00000000006F6A88  Unknown               Unknown  Unknown
+jacobi             0000000000474C22  Unknown               Unknown  Unknown
+jacobi             00000000004439F9  Unknown               Unknown  Unknown
+jacobi             000000000040F205  Unknown               Unknown  Unknown
+jacobi             000000000040D3C7  Unknown               Unknown  Unknown
+jacobi             0000000000668342  Unknown               Unknown  Unknown
+jacobi             00000000006F0A10  Unknown               Unknown  Unknown
+jacobi             000000000040A7D7  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+jacobi             00000000006D6131  Unknown               Unknown  Unknown
+jacobi             00000000006D426B  Unknown               Unknown  Unknown
+jacobi             000000000068EC14  Unknown               Unknown  Unknown
+jacobi             000000000068EA26  Unknown               Unknown  Unknown
+jacobi             000000000066AF26  Unknown               Unknown  Unknown
+jacobi             000000000066FE14  Unknown               Unknown  Unknown
+jacobi             0000000000431B20  Unknown               Unknown  Unknown
+jacobi             000000000065237B  Unknown               Unknown  Unknown
+jacobi             00000000006F6A88  Unknown               Unknown  Unknown
+jacobi             0000000000474C22  Unknown               Unknown  Unknown
+jacobi             00000000004439F9  Unknown               Unknown  Unknown
+jacobi             000000000040F205  Unknown               Unknown  Unknown
+jacobi             000000000040D3C7  Unknown               Unknown  Unknown
+jacobi             0000000000668342  Unknown               Unknown  Unknown
+jacobi             00000000006F0A10  Unknown               Unknown  Unknown
+jacobi             000000000040A7D7  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+jacobi             00000000006D6131  Unknown               Unknown  Unknown
+jacobi             00000000006D426B  Unknown               Unknown  Unknown
+jacobi             000000000068EC14  Unknown               Unknown  Unknown
+jacobi             000000000068EA26  Unknown               Unknown  Unknown
+jacobi             000000000066AF26  Unknown               Unknown  Unknown
+jacobi             000000000066FE14  Unknown               Unknown  Unknown
+jacobi             0000000000431B20  Unknown               Unknown  Unknown
+jacobi             000000000065237B  Unknown               Unknown  Unknown
+jacobi             00000000006F6A88  Unknown               Unknown  Unknown
+jacobi             0000000000474C22  Unknown               Unknown  Unknown
+jacobi             00000000004439F9  Unknown               Unknown  Unknown
+jacobi             000000000040F205  Unknown               Unknown  Unknown
+jacobi             000000000040D3C7  Unknown               Unknown  Unknown
+jacobi             0000000000668342  Unknown               Unknown  Unknown
+jacobi             00000000006F0A10  Unknown               Unknown  Unknown
+jacobi             000000000040A7D7  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+jacobi             00000000006D6131  Unknown               Unknown  Unknown
+jacobi             00000000006D426B  Unknown               Unknown  Unknown
+jacobi             000000000068EC14  Unknown               Unknown  Unknown
+jacobi             000000000068EA26  Unknown               Unknown  Unknown
+jacobi             000000000066AF26  Unknown               Unknown  Unknown
+jacobi             000000000066FE14  Unknown               Unknown  Unknown
+jacobi             0000000000431B20  Unknown               Unknown  Unknown
+jacobi             000000000065237B  Unknown               Unknown  Unknown
+jacobi             00000000006F6A88  Unknown               Unknown  Unknown
+jacobi             0000000000474C22  Unknown               Unknown  Unknown
+jacobi             00000000004439F9  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+jacobi             00000000006D6131  Unknown               Unknown  Unknown
+jacobi             00000000006D426B  Unknown               Unknown  Unknown
+jacobi             000000000068EC14  Unknown               Unknown  Unknown
+jacobi             000000000068EA26  Unknown               Unknown  Unknown
+jacobi             000000000066AF26  Unknown               Unknown  Unknown
+jacobi             000000000066FE14  Unknown               Unknown  Unknown
+jacobi             0000000000431B20  Unknown               Unknown  Unknown
+jacobi             000000000065237B  Unknown               Unknown  Unknown
+jacobi             00000000006F6A88  Unknown               Unknown  Unknown
+jacobi             0000000000474C22  Unknown               Unknown  Unknown
+jacobi             00000000004439F9  Unknown               Unknown  Unknown
+jacobi             000000000040F205  Unknown               Unknown  Unknown
+jacobi             000000000040D3C7  Unknown               Unknown  Unknown
+jacobi             0000000000668342  Unknown               Unknown  Unknown
+jacobi             00000000006F0A10  Unknown               Unknown  Unknown
+jacobi             000000000040A7D7  Unknown               Unknown  Unknown
+jacobi             000000000040F205  Unknown               Unknown  Unknown
+jacobi             000000000040D3C7  Unknown               Unknown  Unknown
+jacobi             0000000000668342  Unknown               Unknown  Unknown
+jacobi             00000000006F0A10  Unknown               Unknown  Unknown
+jacobi             000000000040A7D7  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+jacobi             00000000006D6131  Unknown               Unknown  Unknown
+jacobi             00000000006D426B  Unknown               Unknown  Unknown
+jacobi             000000000068EC14  Unknown               Unknown  Unknown
+jacobi             000000000068EA26  Unknown               Unknown  Unknown
+jacobi             000000000066AF26  Unknown               Unknown  Unknown
+jacobi             000000000066FE14  Unknown               Unknown  Unknown
+jacobi             0000000000431B20  Unknown               Unknown  Unknown
+jacobi             000000000065237B  Unknown               Unknown  Unknown
+jacobi             00000000006F6A88  Unknown               Unknown  Unknown
+jacobi             0000000000474C22  Unknown               Unknown  Unknown
+jacobi             00000000004439F9  Unknown               Unknown  Unknown
+jacobi             000000000040F205  Unknown               Unknown  Unknown
+jacobi             000000000040D3C7  Unknown               Unknown  Unknown
+jacobi             0000000000668342  Unknown               Unknown  Unknown
+jacobi             00000000006F0A10  Unknown               Unknown  Unknown
+jacobi             000000000040A7D7  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+jacobi             00000000006D6131  Unknown               Unknown  Unknown
+jacobi             00000000006D426B  Unknown               Unknown  Unknown
+jacobi             000000000068EC14  Unknown               Unknown  Unknown
+jacobi             000000000068EA26  Unknown               Unknown  Unknown
+jacobi             000000000066AF26  Unknown               Unknown  Unknown
+jacobi             000000000066FE14  Unknown               Unknown  Unknown
+jacobi             0000000000431B20  Unknown               Unknown  Unknown
+jacobi             000000000065237B  Unknown               Unknown  Unknown
+jacobi             00000000006F6A88  Unknown               Unknown  Unknown
+jacobi             0000000000474C22  Unknown               Unknown  Unknown
+jacobi             00000000004439F9  Unknown               Unknown  Unknown
+jacobi             000000000040F205  Unknown               Unknown  Unknown
+jacobi             000000000040D3C7  Unknown               Unknown  Unknown
+jacobi             0000000000668342  Unknown               Unknown  Unknown
+jacobi             00000000006F0A10  Unknown               Unknown  Unknown
+jacobi             000000000040A7D7  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+jacobi             00000000006D6131  Unknown               Unknown  Unknown
+jacobi             00000000006D426B  Unknown               Unknown  Unknown
+jacobi             000000000068EC14  Unknown               Unknown  Unknown
+jacobi             000000000068EA26  Unknown               Unknown  Unknown
+jacobi             000000000066AF26  Unknown               Unknown  Unknown
+jacobi             000000000066FE14  Unknown               Unknown  Unknown
+jacobi             0000000000431B20  Unknown               Unknown  Unknown
+jacobi             000000000065237B  Unknown               Unknown  Unknown
+jacobi             00000000006F6A88  Unknown               Unknown  Unknown
+jacobi             0000000000474C22  Unknown               Unknown  Unknown
+jacobi             00000000004439F9  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+jacobi             00000000006D6131  Unknown               Unknown  Unknown
+jacobi             00000000006D426B  Unknown               Unknown  Unknown
+jacobi             000000000068EC14  Unknown               Unknown  Unknown
+jacobi             000000000068EA26  Unknown               Unknown  Unknown
+jacobi             000000000066AF26  Unknown               Unknown  Unknown
+jacobi             000000000066FE14  Unknown               Unknown  Unknown
+jacobi             0000000000431B20  Unknown               Unknown  Unknown
+jacobi             000000000065237B  Unknown               Unknown  Unknown
+jacobi             00000000006F6A88  Unknown               Unknown  Unknown
+jacobi             0000000000474C22  Unknown               Unknown  Unknown
+jacobi             00000000004439F9  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+jacobi             00000000006D6131  Unknown               Unknown  Unknown
+jacobi             00000000006D426B  Unknown               Unknown  Unknown
+jacobi             000000000068EC14  Unknown               Unknown  Unknown
+jacobi             000000000068EA26  Unknown               Unknown  Unknown
+jacobi             000000000066AF26  Unknown               Unknown  Unknown
+jacobi             000000000066FE14  Unknown               Unknown  Unknown
+jacobi             0000000000431B20  Unknown               Unknown  Unknown
+jacobi             000000000065237B  Unknown               Unknown  Unknown
+jacobi             00000000006F6A88  Unknown               Unknown  Unknown
+jacobi             0000000000474C22  Unknown               Unknown  Unknown
+jacobi             00000000004439F9  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+jacobi             00000000006D6131  Unknown               Unknown  Unknown
+jacobi             00000000006D426B  Unknown               Unknown  Unknown
+jacobi             000000000068EC14  Unknown               Unknown  Unknown
+jacobi             000000000068EA26  Unknown               Unknown  Unknown
+jacobi             000000000066AF26  Unknown               Unknown  Unknown
+jacobi             000000000066FE14  Unknown               Unknown  Unknown
+jacobi             0000000000431B20  Unknown               Unknown  Unknown
+jacobi             000000000065237B  Unknown               Unknown  Unknown
+jacobi             00000000006F6A88  Unknown               Unknown  Unknown
+jacobi             0000000000474C22  Unknown               Unknown  Unknown
+jacobi             00000000004439F9  Unknown               Unknown  Unknown
+jacobi             000000000040F205  Unknown               Unknown  Unknown
+jacobi             000000000040D3C7  Unknown               Unknown  Unknown
+jacobi             0000000000668342  Unknown               Unknown  Unknown
+jacobi             00000000006F0A10  Unknown               Unknown  Unknown
+jacobi             000000000040A7D7  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+jacobi             00000000006D6131  Unknown               Unknown  Unknown
+jacobi             00000000006D426B  Unknown               Unknown  Unknown
+jacobi             000000000068EC14  Unknown               Unknown  Unknown
+jacobi             000000000068EA26  Unknown               Unknown  Unknown
+jacobi             000000000066AF26  Unknown               Unknown  Unknown
+jacobi             000000000066FE14  Unknown               Unknown  Unknown
+jacobi             0000000000431B20  Unknown               Unknown  Unknown
+jacobi             000000000065237B  Unknown               Unknown  Unknown
+jacobi             00000000006F6A88  Unknown               Unknown  Unknown
+jacobi             0000000000474C22  Unknown               Unknown  Unknown
+jacobi             00000000004439F9  Unknown               Unknown  Unknown
+jacobi             000000000040F205  Unknown               Unknown  Unknown
+jacobi             000000000040D3C7  Unknown               Unknown  Unknown
+jacobi             0000000000668342  Unknown               Unknown  Unknown
+jacobi             00000000006F0A10  Unknown               Unknown  Unknown
+jacobi             000000000040A7D7  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+jacobi             00000000006D6131  Unknown               Unknown  Unknown
+jacobi             00000000006D426B  Unknown               Unknown  Unknown
+jacobi             000000000068EC14  Unknown               Unknown  Unknown
+jacobi             000000000068EA26  Unknown               Unknown  Unknown
+jacobi             000000000066AF26  Unknown               Unknown  Unknown
+jacobi             000000000066FE14  Unknown               Unknown  Unknown
+jacobi             0000000000431B20  Unknown               Unknown  Unknown
+jacobi             000000000065237B  Unknown               Unknown  Unknown
+jacobi             00000000006F6A88  Unknown               Unknown  Unknown
+jacobi             0000000000474C22  Unknown               Unknown  Unknown
+jacobi             00000000004439F9  Unknown               Unknown  Unknown
+jacobi             000000000040F205  Unknown               Unknown  Unknown
+jacobi             000000000040D3C7  Unknown               Unknown  Unknown
+jacobi             0000000000668342  Unknown               Unknown  Unknown
+jacobi             00000000006F0A10  Unknown               Unknown  Unknown
+jacobi             000000000040A7D7  Unknown               Unknown  Unknown
+jacobi             000000000040F205  Unknown               Unknown  Unknown
+jacobi             000000000040D3C7  Unknown               Unknown  Unknown
+jacobi             0000000000668342  Unknown               Unknown  Unknown
+jacobi             00000000006F0A10  Unknown               Unknown  Unknown
+jacobi             000000000040A7D7  Unknown               Unknown  Unknown
+jacobi             000000000040F205  Unknown               Unknown  Unknown
+jacobi             000000000040D3C7  Unknown               Unknown  Unknown
+jacobi             0000000000668342  Unknown               Unknown  Unknown
+jacobi             00000000006F0A10  Unknown               Unknown  Unknown
+jacobi             000000000040A7D7  Unknown               Unknown  Unknown
+jacobi             000000000040F205  Unknown               Unknown  Unknown
+jacobi             000000000040D3C7  Unknown               Unknown  Unknown
+jacobi             0000000000668342  Unknown               Unknown  Unknown
+jacobi             00000000006F0A10  Unknown               Unknown  Unknown
+jacobi             000000000040A7D7  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+jacobi             00000000006D6131  Unknown               Unknown  Unknown
+jacobi             00000000006D426B  Unknown               Unknown  Unknown
+jacobi             000000000068EC14  Unknown               Unknown  Unknown
+jacobi             000000000068EA26  Unknown               Unknown  Unknown
+jacobi             000000000066AF26  Unknown               Unknown  Unknown
+jacobi             000000000066FE14  Unknown               Unknown  Unknown
+jacobi             0000000000431B20  Unknown               Unknown  Unknown
+jacobi             000000000065237B  Unknown               Unknown  Unknown
+jacobi             00000000006F6A88  Unknown               Unknown  Unknown
+jacobi             0000000000474C22  Unknown               Unknown  Unknown
+jacobi             00000000004439F9  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+jacobi             00000000006D6131  Unknown               Unknown  Unknown
+jacobi             00000000006D426B  Unknown               Unknown  Unknown
+jacobi             000000000068EC14  Unknown               Unknown  Unknown
+jacobi             000000000068EA26  Unknown               Unknown  Unknown
+jacobi             000000000066AF26  Unknown               Unknown  Unknown
+jacobi             000000000066FE14  Unknown               Unknown  Unknown
+jacobi             0000000000431B20  Unknown               Unknown  Unknown
+jacobi             000000000065237B  Unknown               Unknown  Unknown
+jacobi             00000000006F6A88  Unknown               Unknown  Unknown
+jacobi             0000000000474C22  Unknown               Unknown  Unknown
+jacobi             00000000004439F9  Unknown               Unknown  Unknown
+jacobi             000000000040F205  Unknown               Unknown  Unknown
+jacobi             000000000040D3C7  Unknown               Unknown  Unknown
+jacobi             0000000000668342  Unknown               Unknown  Unknown
+jacobi             00000000006F0A10  Unknown               Unknown  Unknown
+jacobi             000000000040A7D7  Unknown               Unknown  Unknown
+jacobi             000000000040F205  Unknown               Unknown  Unknown
+jacobi             000000000040D3C7  Unknown               Unknown  Unknown
+jacobi             0000000000668342  Unknown               Unknown  Unknown
+jacobi             00000000006F0A10  Unknown               Unknown  Unknown
+jacobi             000000000040A7D7  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+jacobi             00000000006D6131  Unknown               Unknown  Unknown
+jacobi             00000000006D426B  Unknown               Unknown  Unknown
+jacobi             000000000068EC14  Unknown               Unknown  Unknown
+jacobi             000000000068EA26  Unknown               Unknown  Unknown
+jacobi             000000000066AF26  Unknown               Unknown  Unknown
+jacobi             000000000066FE14  Unknown               Unknown  Unknown
+jacobi             0000000000431B20  Unknown               Unknown  Unknown
+jacobi             000000000065237B  Unknown               Unknown  Unknown
+jacobi             00000000006F6A88  Unknown               Unknown  Unknown
+jacobi             0000000000474C22  Unknown               Unknown  Unknown
+jacobi             00000000004439F9  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+jacobi             00000000006D6131  Unknown               Unknown  Unknown
+jacobi             00000000006D426B  Unknown               Unknown  Unknown
+jacobi             000000000068EC14  Unknown               Unknown  Unknown
+jacobi             000000000068EA26  Unknown               Unknown  Unknown
+jacobi             000000000066AF26  Unknown               Unknown  Unknown
+jacobi             000000000066FE14  Unknown               Unknown  Unknown
+jacobi             0000000000431B20  Unknown               Unknown  Unknown
+jacobi             000000000065237B  Unknown               Unknown  Unknown
+jacobi             00000000006F6A88  Unknown               Unknown  Unknown
+jacobi             0000000000474C22  Unknown               Unknown  Unknown
+jacobi             00000000004439F9  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+jacobi             00000000006D6131  Unknown               Unknown  Unknown
+jacobi             00000000006D426B  Unknown               Unknown  Unknown
+jacobi             000000000068EC14  Unknown               Unknown  Unknown
+jacobi             000000000068EA26  Unknown               Unknown  Unknown
+jacobi             000000000066AF26  Unknown               Unknown  Unknown
+jacobi             000000000066FE14  Unknown               Unknown  Unknown
+jacobi             0000000000431B20  Unknown               Unknown  Unknown
+jacobi             000000000065237B  Unknown               Unknown  Unknown
+jacobi             00000000006F6A88  Unknown               Unknown  Unknown
+jacobi             0000000000474C22  Unknown               Unknown  Unknown
+jacobi             00000000004439F9  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+jacobi             00000000006D6131  Unknown               Unknown  Unknown
+jacobi             00000000006D426B  Unknown               Unknown  Unknown
+jacobi             000000000068EC14  Unknown               Unknown  Unknown
+jacobi             000000000068EA26  Unknown               Unknown  Unknown
+jacobi             000000000066AF26  Unknown               Unknown  Unknown
+jacobi             000000000066FE14  Unknown               Unknown  Unknown
+jacobi             0000000000431B20  Unknown               Unknown  Unknown
+jacobi             000000000065237B  Unknown               Unknown  Unknown
+jacobi             00000000006F6A88  Unknown               Unknown  Unknown
+jacobi             0000000000474C22  Unknown               Unknown  Unknown
+jacobi             00000000004439F9  Unknown               Unknown  Unknown
+jacobi             000000000040F205  Unknown               Unknown  Unknown
+jacobi             000000000040D3C7  Unknown               Unknown  Unknown
+jacobi             0000000000668342  Unknown               Unknown  Unknown
+jacobi             00000000006F0A10  Unknown               Unknown  Unknown
+jacobi             000000000040A7D7  Unknown               Unknown  Unknown
+jacobi             000000000040F205  Unknown               Unknown  Unknown
+jacobi             000000000040D3C7  Unknown               Unknown  Unknown
+jacobi             0000000000668342  Unknown               Unknown  Unknown
+jacobi             00000000006F0A10  Unknown               Unknown  Unknown
+jacobi             000000000040A7D7  Unknown               Unknown  Unknown
+jacobi             000000000040F205  Unknown               Unknown  Unknown
+jacobi             000000000040D3C7  Unknown               Unknown  Unknown
+jacobi             0000000000668342  Unknown               Unknown  Unknown
+jacobi             00000000006F0A10  Unknown               Unknown  Unknown
+jacobi             000000000040A7D7  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+jacobi             00000000006D6131  Unknown               Unknown  Unknown
+jacobi             00000000006D426B  Unknown               Unknown  Unknown
+jacobi             000000000068EC14  Unknown               Unknown  Unknown
+jacobi             000000000068EA26  Unknown               Unknown  Unknown
+jacobi             000000000066AF26  Unknown               Unknown  Unknown
+jacobi             000000000066FE14  Unknown               Unknown  Unknown
+jacobi             0000000000431B20  Unknown               Unknown  Unknown
+jacobi             000000000065237B  Unknown               Unknown  Unknown
+jacobi             00000000006F6A88  Unknown               Unknown  Unknown
+jacobi             0000000000474C22  Unknown               Unknown  Unknown
+jacobi             00000000004439F9  Unknown               Unknown  Unknown
+jacobi             000000000040F205  Unknown               Unknown  Unknown
+jacobi             000000000040D3C7  Unknown               Unknown  Unknown
+jacobi             0000000000668342  Unknown               Unknown  Unknown
+jacobi             00000000006F0A10  Unknown               Unknown  Unknown
+jacobi             000000000040A7D7  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+jacobi             00000000006D6131  Unknown               Unknown  Unknown
+jacobi             00000000006D426B  Unknown               Unknown  Unknown
+jacobi             000000000068EC14  Unknown               Unknown  Unknown
+jacobi             000000000068EA26  Unknown               Unknown  Unknown
+jacobi             000000000066AF26  Unknown               Unknown  Unknown
+jacobi             000000000066FE14  Unknown               Unknown  Unknown
+jacobi             0000000000431B20  Unknown               Unknown  Unknown
+jacobi             000000000065237B  Unknown               Unknown  Unknown
+jacobi             00000000006F6A88  Unknown               Unknown  Unknown
+jacobi             0000000000474C22  Unknown               Unknown  Unknown
+jacobi             00000000004439F9  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+jacobi             00000000006D6131  Unknown               Unknown  Unknown
+jacobi             00000000006D426B  Unknown               Unknown  Unknown
+jacobi             000000000068EC14  Unknown               Unknown  Unknown
+jacobi             000000000068EA26  Unknown               Unknown  Unknown
+jacobi             000000000066AF26  Unknown               Unknown  Unknown
+jacobi             000000000066FE14  Unknown               Unknown  Unknown
+jacobi             0000000000431B20  Unknown               Unknown  Unknown
+jacobi             000000000065237B  Unknown               Unknown  Unknown
+jacobi             00000000006F6A88  Unknown               Unknown  Unknown
+jacobi             0000000000474C22  Unknown               Unknown  Unknown
+jacobi             00000000004439F9  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+jacobi             00000000006D6131  Unknown               Unknown  Unknown
+jacobi             00000000006D426B  Unknown               Unknown  Unknown
+jacobi             000000000068EC14  Unknown               Unknown  Unknown
+jacobi             000000000068EA26  Unknown               Unknown  Unknown
+jacobi             000000000066AF26  Unknown               Unknown  Unknown
+jacobi             000000000066FE14  Unknown               Unknown  Unknown
+jacobi             0000000000431B20  Unknown               Unknown  Unknown
+jacobi             000000000065237B  Unknown               Unknown  Unknown
+jacobi             00000000006F6A88  Unknown               Unknown  Unknown
+jacobi             0000000000474C22  Unknown               Unknown  Unknown
+jacobi             00000000004439F9  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+jacobi             00000000006D6131  Unknown               Unknown  Unknown
+jacobi             00000000006D426B  Unknown               Unknown  Unknown
+jacobi             000000000068EC14  Unknown               Unknown  Unknown
+jacobi             000000000068EA26  Unknown               Unknown  Unknown
+jacobi             000000000066AF26  Unknown               Unknown  Unknown
+jacobi             000000000066FE14  Unknown               Unknown  Unknown
+jacobi             0000000000431B20  Unknown               Unknown  Unknown
+jacobi             000000000065237B  Unknown               Unknown  Unknown
+jacobi             00000000006F6A88  Unknown               Unknown  Unknown
+jacobi             0000000000474C22  Unknown               Unknown  Unknown
+jacobi             00000000004439F9  Unknown               Unknown  Unknown
+jacobi             000000000040F205  Unknown               Unknown  Unknown
+jacobi             000000000040D3C7  Unknown               Unknown  Unknown
+jacobi             0000000000668342  Unknown               Unknown  Unknown
+jacobi             00000000006F0A10  Unknown               Unknown  Unknown
+jacobi             000000000040A7D7  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+jacobi             00000000006D6131  Unknown               Unknown  Unknown
+jacobi             00000000006D426B  Unknown               Unknown  Unknown
+jacobi             000000000068EC14  Unknown               Unknown  Unknown
+jacobi             000000000068EA26  Unknown               Unknown  Unknown
+jacobi             000000000066AF26  Unknown               Unknown  Unknown
+jacobi             000000000066FE14  Unknown               Unknown  Unknown
+jacobi             0000000000431B20  Unknown               Unknown  Unknown
+jacobi             000000000065237B  Unknown               Unknown  Unknown
+jacobi             00000000006F6A88  Unknown               Unknown  Unknown
+jacobi             0000000000474C22  Unknown               Unknown  Unknown
+jacobi             00000000004439F9  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+jacobi             00000000006D6131  Unknown               Unknown  Unknown
+jacobi             00000000006D426B  Unknown               Unknown  Unknown
+jacobi             000000000068EC14  Unknown               Unknown  Unknown
+jacobi             000000000068EA26  Unknown               Unknown  Unknown
+jacobi             000000000066AF26  Unknown               Unknown  Unknown
+jacobi             000000000066FE14  Unknown               Unknown  Unknown
+jacobi             0000000000431B20  Unknown               Unknown  Unknown
+jacobi             000000000065237B  Unknown               Unknown  Unknown
+jacobi             00000000006F6A88  Unknown               Unknown  Unknown
+jacobi             0000000000474C22  Unknown               Unknown  Unknown
+jacobi             00000000004439F9  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+jacobi             00000000006D6131  Unknown               Unknown  Unknown
+jacobi             00000000006D426B  Unknown               Unknown  Unknown
+jacobi             000000000068EC14  Unknown               Unknown  Unknown
+jacobi             000000000068EA26  Unknown               Unknown  Unknown
+jacobi             000000000066AF26  Unknown               Unknown  Unknown
+jacobi             000000000066FE14  Unknown               Unknown  Unknown
+jacobi             0000000000431B20  Unknown               Unknown  Unknown
+jacobi             000000000065237B  Unknown               Unknown  Unknown
+jacobi             00000000006F6A88  Unknown               Unknown  Unknown
+jacobi             0000000000474C22  Unknown               Unknown  Unknown
+jacobi             00000000004439F9  Unknown               Unknown  Unknown
+jacobi             000000000040F205  Unknown               Unknown  Unknown
+jacobi             000000000040D3C7  Unknown               Unknown  Unknown
+jacobi             0000000000668342  Unknown               Unknown  Unknown
+jacobi             00000000006F0A10  Unknown               Unknown  Unknown
+jacobi             000000000040A7D7  Unknown               Unknown  Unknown
+jacobi             000000000040F205  Unknown               Unknown  Unknown
+jacobi             000000000040D3C7  Unknown               Unknown  Unknown
+jacobi             0000000000668342  Unknown               Unknown  Unknown
+jacobi             00000000006F0A10  Unknown               Unknown  Unknown
+jacobi             000000000040A7D7  Unknown               Unknown  Unknown
+jacobi             000000000040F205  Unknown               Unknown  Unknown
+jacobi             000000000040D3C7  Unknown               Unknown  Unknown
+jacobi             0000000000668342  Unknown               Unknown  Unknown
+jacobi             00000000006F0A10  Unknown               Unknown  Unknown
+jacobi             000000000040A7D7  Unknown               Unknown  Unknown
+jacobi             000000000040F205  Unknown               Unknown  Unknown
+jacobi             000000000040D3C7  Unknown               Unknown  Unknown
+jacobi             0000000000668342  Unknown               Unknown  Unknown
+jacobi             00000000006F0A10  Unknown               Unknown  Unknown
+jacobi             000000000040A7D7  Unknown               Unknown  Unknown
+jacobi             000000000040F205  Unknown               Unknown  Unknown
+jacobi             000000000040D3C7  Unknown               Unknown  Unknown
+jacobi             0000000000668342  Unknown               Unknown  Unknown
+jacobi             00000000006F0A10  Unknown               Unknown  Unknown
+jacobi             000000000040A7D7  Unknown               Unknown  Unknown
+jacobi             000000000040F205  Unknown               Unknown  Unknown
+jacobi             000000000040D3C7  Unknown               Unknown  Unknown
+jacobi             0000000000668342  Unknown               Unknown  Unknown
+jacobi             00000000006F0A10  Unknown               Unknown  Unknown
+jacobi             000000000040A7D7  Unknown               Unknown  Unknown
+jacobi             000000000040F205  Unknown               Unknown  Unknown
+jacobi             000000000040D3C7  Unknown               Unknown  Unknown
+jacobi             0000000000668342  Unknown               Unknown  Unknown
+jacobi             00000000006F0A10  Unknown               Unknown  Unknown
+jacobi             000000000040A7D7  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+jacobi             00000000006D6131  Unknown               Unknown  Unknown
+jacobi             00000000006D426B  Unknown               Unknown  Unknown
+jacobi             000000000068EC14  Unknown               Unknown  Unknown
+jacobi             000000000068EA26  Unknown               Unknown  Unknown
+jacobi             000000000066AF26  Unknown               Unknown  Unknown
+jacobi             000000000066FE14  Unknown               Unknown  Unknown
+jacobi             0000000000431B20  Unknown               Unknown  Unknown
+jacobi             000000000065237B  Unknown               Unknown  Unknown
+jacobi             00000000006F6A88  Unknown               Unknown  Unknown
+jacobi             0000000000474C22  Unknown               Unknown  Unknown
+jacobi             00000000004439F9  Unknown               Unknown  Unknown
+jacobi             000000000040F205  Unknown               Unknown  Unknown
+jacobi             000000000040D3C7  Unknown               Unknown  Unknown
+jacobi             0000000000668342  Unknown               Unknown  Unknown
+jacobi             00000000006F0A10  Unknown               Unknown  Unknown
+jacobi             000000000040A7D7  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+jacobi             00000000006D6131  Unknown               Unknown  Unknown
+jacobi             00000000006D426B  Unknown               Unknown  Unknown
+jacobi             000000000068EC14  Unknown               Unknown  Unknown
+jacobi             000000000068EA26  Unknown               Unknown  Unknown
+jacobi             000000000066AF26  Unknown               Unknown  Unknown
+jacobi             000000000066FE14  Unknown               Unknown  Unknown
+jacobi             0000000000431B20  Unknown               Unknown  Unknown
+jacobi             000000000065237B  Unknown               Unknown  Unknown
+jacobi             00000000006F6A88  Unknown               Unknown  Unknown
+jacobi             0000000000474C22  Unknown               Unknown  Unknown
+jacobi             00000000004439F9  Unknown               Unknown  Unknown
+jacobi             000000000040F205  Unknown               Unknown  Unknown
+jacobi             000000000040D3C7  Unknown               Unknown  Unknown
+jacobi             0000000000668342  Unknown               Unknown  Unknown
+jacobi             00000000006F0A10  Unknown               Unknown  Unknown
+jacobi             000000000040A7D7  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+jacobi             00000000006D6131  Unknown               Unknown  Unknown
+jacobi             00000000006D426B  Unknown               Unknown  Unknown
+jacobi             000000000068EC14  Unknown               Unknown  Unknown
+jacobi             000000000068EA26  Unknown               Unknown  Unknown
+jacobi             000000000066AF26  Unknown               Unknown  Unknown
+jacobi             000000000066FE14  Unknown               Unknown  Unknown
+jacobi             0000000000431B20  Unknown               Unknown  Unknown
+jacobi             000000000065237B  Unknown               Unknown  Unknown
+jacobi             00000000006F6A88  Unknown               Unknown  Unknown
+jacobi             0000000000474C22  Unknown               Unknown  Unknown
+jacobi             00000000004439F9  Unknown               Unknown  Unknown
+jacobi             000000000040F205  Unknown               Unknown  Unknown
+jacobi             000000000040D3C7  Unknown               Unknown  Unknown
+jacobi             0000000000668342  Unknown               Unknown  Unknown
+jacobi             00000000006F0A10  Unknown               Unknown  Unknown
+jacobi             000000000040A7D7  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+jacobi             00000000006D6131  Unknown               Unknown  Unknown
+jacobi             00000000006D426B  Unknown               Unknown  Unknown
+jacobi             000000000068EC14  Unknown               Unknown  Unknown
+jacobi             000000000068EA26  Unknown               Unknown  Unknown
+jacobi             000000000066AF26  Unknown               Unknown  Unknown
+jacobi             000000000066FE14  Unknown               Unknown  Unknown
+jacobi             0000000000431B20  Unknown               Unknown  Unknown
+jacobi             000000000065237B  Unknown               Unknown  Unknown
+jacobi             00000000006F6A88  Unknown               Unknown  Unknown
+jacobi             0000000000474C22  Unknown               Unknown  Unknown
+jacobi             00000000004439F9  Unknown               Unknown  Unknown
+jacobi             000000000040F205  Unknown               Unknown  Unknown
+jacobi             000000000040D3C7  Unknown               Unknown  Unknown
+jacobi             0000000000668342  Unknown               Unknown  Unknown
+jacobi             00000000006F0A10  Unknown               Unknown  Unknown
+jacobi             000000000040A7D7  Unknown               Unknown  Unknown
+srun: error: nid00078: task 1: Aborted
+srun: Terminating job step 4000084.0
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: nid00087: task 10: Aborted
+srun: error: nid00099: task 21: Aborted
+srun: error: nid00082: task 5: Aborted
+srun: error: nid00094: task 17: Aborted
+srun: error: nid00079: task 2: Aborted
+srun: error: nid00089: task 12: Aborted
+srun: error: nid00077: task 0: Aborted
+srun: error: nid00081: task 4: Aborted
+srun: error: nid00109: task 29: Aborted
+srun: error: nid00088: task 11: Aborted
+srun: error: nid00103: task 23: Aborted
+srun: error: nid00096: task 19: Aborted
+srun: error: nid00098: task 20: Aborted
+srun: error: nid00080: task 3: Aborted
+srun: error: nid00084: task 7: Aborted
+srun: error: nid00086: task 9: Aborted
+srun: error: nid00085: task 8: Aborted
+srun: error: nid00083: task 6: Aborted
+srun: error: nid00110: task 30: Aborted
+srun: error: nid00104: task 24: Aborted
+srun: error: nid00093: task 16: Aborted
+srun: error: nid00107: task 27: Aborted
+srun: error: nid00106: task 26: Aborted
+srun: error: nid00100: task 22: Aborted
+srun: error: nid00105: task 25: Aborted
+srun: error: nid00092: task 15: Aborted
+srun: error: nid00091: task 14: Aborted
+srun: error: nid00117: task 31: Aborted
+srun: error: nid00095: task 18: Aborted
+srun: error: nid00108: task 28: Aborted
+srun: error: nid00090: task 13: Aborted
+
+real	0m4.766s
+user	0m0.056s
+sys	0m0.032s

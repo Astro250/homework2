@@ -1,0 +1,17 @@
+#!/bin/bash -l
+#SBATCH -N 2
+#SBATCH -C haswell
+#SBATCH -p debug
+#SBATCH --mail-user=kirk.larsen@berkeley.edu
+#SBATCH -t 00:05:00
+#SBATCH -A m2218
+#SBATCH -o jacobi.%j.stdout
+#SBATCH -e jacobi.%j.error
+
+#OpenMP settings:
+export OMP_NUM_THREADS=1
+export OMP_PLACES=threads
+export OMP_PROC_BIND=spread
+
+#run the application:
+srun -n 128 -c 1 --cpu_bind=cores ./jacobi
