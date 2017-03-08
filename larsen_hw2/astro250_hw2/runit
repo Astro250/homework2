@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#SBATCH -J some_name 
+#SBATCH -N 2 
+#SBATCH -C haswell
+#SBATCH -t 00:05:00
+#SBATCH -p debug
+#SBATCH -A m2218
+
+
+cd /project/projectdirs/astro250/class/code/hybrid
+
+export OMP_NUM_THREADS=32
+export OMP_PLACES=threads
+export OMP_PROC_BIND=spread
+
+time srun -n 4 -c 32 --cpu_bind=cores /project/projectdirs/astro250/class/code/hybrid/jacobi 

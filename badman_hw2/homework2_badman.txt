@@ -1,0 +1,15 @@
+Homework 2 - Sam Badman
+
+Results and Details:
+
+Copied over Jacobi.f90 and extended iteration from 1000 to 10000
+
+Wrote a batch script varying number of MPI taks and OPENMP threads from a max value of 120 MPI, 1 OMP to 2MPI, 64 OMP. 
+
+slurm.out file in directory shows the n and c flags for each run, the final iterative convergence factor (diffnorm) and then prints out the results of the time call on srun.
+
+Results: A clear minimum time was observed between the two extremes, showing that in hybrid codes there is an optimisation to be obtained between MPI and OPENMP tasks.
+
+Note: I couldn't get jacobi's convergence factor after 10000 steps to not depend on the -n and -c flags. I believe this is due to the fact that the grid is broken up differently depending on the -n flag which is read into the code as np, but I wasn't able to investigate this further.
+
+Running: cloning my folder, to a nersc directory and running on cori, call sbatch batch_script_jacobi.sl , job should take ~40 min to run and will output a slurm_#.out file containing the same results as printed in the slurm_#.out file already in this directory.
