@@ -1,10 +1,10 @@
 #!/bin/bash
 #SBATCH -N 2
 #SBATCH -C haswell
-#SBATCH -p debug
+#SBATCH -p regular
 #SBATCH -J jacobi
 #SBATCH --mail-user=watson_james@berkeley.edu
-#SBATCH -t 00:30:00
+#SBATCH -t 00:60:00
 
 #OpenMP settings:
 #export OMP_PLACES=threads
