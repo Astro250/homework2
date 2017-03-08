@@ -34,7 +34,6 @@ int main(int argc,char ** argv){
 		r += dx*exp(-x)*exp(-3.*x)*exp(-4.*x)*exp(-5.*x);
 	}
 
-	//mpi_send r back to rank 0 which will add up all the r's and prunsigned long long int them out
 	double rs = 0.0;
 	MPI_Status status;
 
