@@ -1,0 +1,49 @@
+ 
+Running jacobi.f90 with 125 MPI tasks and 1 OMP threads
+ Final iteration gave convergene of:  2.7874378E-02
+
+real	2m45.610s
+user	0m0.056s
+sys	0m0.008s
+ 
+Running jacobi.f90 with 100 MPI tasks and 1 OMP threads
+ Final iteration gave convergene of:  2.7874103E-02
+
+real	2m35.070s
+user	0m0.048s
+sys	0m0.020s
+ 
+Running jacobi.f90 with 40 MPI tasks and 2 OMP threads
+ Final iteration gave convergene of:  2.7874039E-02
+
+real	2m30.985s
+user	0m0.052s
+sys	0m0.012s
+ 
+Running jacobi.f90 with 20 MPI tasks and 6 OMP threads
+ Final iteration gave convergene of:  2.7873833E-02
+
+real	2m53.050s
+user	0m0.060s
+sys	0m0.004s
+ 
+Running jacobi.f90 with 10 MPI tasks and 12 OMP threads
+ Final iteration gave convergene of:  2.7873462E-02
+
+real	4m37.326s
+user	0m0.052s
+sys	0m0.012s
+ 
+Running jacobi.f90 with 8 MPI tasks and 16 OMP threads
+ Final iteration gave convergene of:  2.7873334E-02
+
+real	5m24.106s
+user	0m0.052s
+sys	0m0.012s
+ 
+Running jacobi.f90 with 2  MPI tasks and 64 OMP threads
+ Final iteration gave convergene of:  2.7870080E-02
+
+real	20m45.141s
+user	0m0.040s
+sys	0m0.020s
