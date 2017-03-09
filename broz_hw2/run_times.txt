@@ -1,0 +1,36 @@
+ 
+16threads_2nodes_2cores.out
+real	4m48.350s
+ 
+16threads_2nodes_32cores.out
+real	5m6.537s
+ 
+1threads_2nodes_2cores.out
+real	4m48.371s
+ 
+1threads_2nodes_32cores.out
+real	4m51.813s
+ 
+2threads_4nodes_2cores.out
+real	2m32.877s
+ 
+2threads_4nodes_32cores.out
+real	2m26.552s
+ 
+2threads_6nodes_2cores.out
+real	1m41.962s
+ 
+32threads_2nodes_2cores.out
+real	4m51.995s
+ 
+32threads_2nodes_32cores.out
+real	4m51.726s
+ 
+32threads_4nodes_2cores.out
+real	2m32.126s
+ 
+32threads_4nodes_32cores.out
+real	2m28.557s
+ 
+32threads_6nodes_2cores.out
+real	1m45.098s

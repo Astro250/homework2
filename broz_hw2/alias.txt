@@ -1,0 +1,5 @@
+alias s='squeue -u jbroz'
+alias r='sbatch jojob.sh'
+alias l='ls -l'
+alias n='nano jojob.sh'
+alias g='./get_times.sh'
