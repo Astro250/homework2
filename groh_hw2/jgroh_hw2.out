@@ -1,0 +1,66 @@
+-----------------------------------------------
+Run 1
+Number of MPI tasks: 2
+Number of OpenMP threads per MPI task: 64
+Result of integration: 0.999828
+
+real	0m1.302s
+user	0m0.048s
+sys	0m0.008s
+ 
+ 
+-----------------------------------------------
+Run 2
+Number of MPI tasks: 4
+Number of OpenMP threads per MPI task: 32
+Result of integration: 0.999828
+
+real	0m2.991s
+user	0m0.040s
+sys	0m0.020s
+ 
+ 
+-----------------------------------------------
+Run 3
+Number of MPI tasks: 8
+Number of OpenMP threads per MPI task: 16
+Result of integration: 0.999828
+
+real	0m6.153s
+user	0m0.052s
+sys	0m0.012s
+ 
+ 
+-----------------------------------------------
+Run 4
+Number of MPI tasks: 16
+Number of OpenMP threads per MPI task: 8
+Result of integration: 0.999828
+
+real	0m3.955s
+user	0m0.040s
+sys	0m0.028s
+ 
+ 
+-----------------------------------------------
+Run 5
+Number of MPI tasks: 32
+Number of OpenMP threads per MPI task: 4
+Result of integration: 0.999828
+
+real	0m25.126s
+user	0m0.052s
+sys	0m0.024s
+ 
+ 
+-----------------------------------------------
+Run 6
+Number of MPI tasks: 64
+Number of OpenMP threads per MPI task: 2
+Result of integration: 0.999828
+
+real	0m16.071s
+user	0m0.056s
+sys	0m0.016s
+ 
+ 
