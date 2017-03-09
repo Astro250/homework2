@@ -1,0 +1,112 @@
+===============================================================================
+ Castro Job Information
+===============================================================================
+job name: 
+
+inputs file: /global/cscratch1/sd/dkhatami/rt_test/inputs_2d
+
+number of MPI processes: 128
+number of threads:       1
+
+CPU time used since start of simulation (CPU-hours): 6.1875
+
+===============================================================================
+ Plotfile Information
+===============================================================================
+output data / time: Thu Mar  9 13:56:08 2017
+output dir:         /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1
+
+
+===============================================================================
+ Build Information
+===============================================================================
+build date:    2017-03-08 01:05:12.180536
+build machine: Linux nid00061 3.12.51-52.31.1_1.0600.9146-cray_ari_c #1 SMP Wed Feb 1 01:29:04 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux
+build dir:     /global/u1/d/dkhatami/src/castro/Castro/Exec/hydro_tests/RT
+BoxLib dir:    /global/homes/d/dkhatami/src/boxlib/BoxLib/
+
+COMP:          gnu
+COMP version:  4.8
+
+EOS: ../../../Microphysics/EOS/gamma_law
+NETWORK: ../../../Microphysics/networks/general_null
+
+Castro       git describe: 17.02-1-g25b8700-dirty
+BoxLib       git describe: 16.12.2-27-g810b21b-dirty
+
+
+===============================================================================
+ Grid Information
+===============================================================================
+ level: 0
+   number of boxes = 8
+   maximum zones   = 32 64 
+
+ level: 1
+   number of boxes = 24
+   maximum zones   = 64 128 
+
+ level: 2
+   number of boxes = 80
+   maximum zones   = 128 256 
+
+ level: 3
+   number of boxes = 207
+   maximum zones   = 256 512 
+
+ level: 4
+   number of boxes = 146
+   maximum zones   = 512 1024 
+
+ Boundary conditions
+   -x: interior
+   +x: interior
+   -y: slipwall
+   +y: slipwall
+
+
+===============================================================================
+ Species Information
+===============================================================================
+ index                         name              A              Z
+--------------------------------------------------------------------------------
+     0                            X              1              1
+
+
+===============================================================================
+ Inputs File Parameters
+===============================================================================
+max_step = 100000000
+stop_time = 2.5
+geometry.is_periodic = 1 0
+geometry.coord_sys = 0
+geometry.prob_lo = 0 0
+geometry.prob_hi = 0.5 1.0
+amr.n_cell = 32 64
+castro.lo_bc = 0 4
+castro.hi_bc = 0 4
+castro.do_hydro = 1
+castro.do_react = 0
+castro.do_grav = 1
+castro.allow_negative_energy = 0
+gravity.gravity_type = ConstantGrav
+gravity.const_grav = -1.0
+castro.cfl = 0.9
+castro.init_shrink = 0.3
+castro.change_max = 1.1
+castro.dt_cutoff = 5.e-20
+castro.sum_interval = 1
+castro.v = 1
+amr.v = 1
+amr.max_level = 4
+amr.ref_ratio = 2 2 2 2
+amr.regrid_int = 2 2 2 2
+amr.blocking_factor = 4
+amr.max_grid_size = 128
+amr.n_error_buf = 2 2 2 2
+amr.check_file = chk
+amr.check_int = 100
+amr.plot_file = plt
+amr.plot_int = 100
+amr.derive_plot_vars = density xmom ymom zmom eden Temp pressure
+amr.probin_file = probin

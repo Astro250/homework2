@@ -1,0 +1,526 @@
+MPI initialized with 128 MPI processes
+OMP initialized with 1 OMP threads
+
+Starting run at 21:50:52 UTC on 2017-03-09.
+
+Castro git describe: 17.02-1-g25b8700-dirty
+BoxLib git describe: 16.12.2-27-g810b21b-dirty
+
+reading extern runtime parameters ...
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+forrtl: severe (29): file not found, unit 9, file /global/cscratch1/sd/dkhatami/rt_test/test_mpi64_omp1/probin
+
+Stack trace terminated abnormally.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 4025498 ON nid01131 CANCELLED AT 2017-03-09T13:53:00 ***
+srun: got SIGCONT
+slurmstepd: error: *** STEP 4025498.0 ON nid01131 CANCELLED AT 2017-03-09T13:53:00 ***
+srun: forcing job termination
