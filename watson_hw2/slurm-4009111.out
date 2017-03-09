@@ -1,0 +1,36 @@
+pure MPI, 50 MPI per node, OMP_NUM_THREAD=1
+time srun -n 100  ./jacobi > hw2.out
+
+real	1m33.379s
+user	0m0.052s
+sys	0m0.016s
+hybrid  OMP/MPI, 25 MPI per node, OMP_NUM_THREAD=2
+time srun -n 50 -c 2  ./jacobi > hw2.out
+
+real	2m46.735s
+user	0m0.040s
+sys	0m0.028s
+hybrid OMP/ MPI, 20 MPI per node, OMP_NUM_THREAD=4
+time srun -n 40 -c 3  ./jacobi > hw2.out
+
+real	3m26.520s
+user	0m0.044s
+sys	0m0.016s
+hybrid OMP/ MPI, 8 MPI per node, OMP_NUM_THREAD=8
+time srun -n 16 -c 8  ./jacobi > hw2.out
+
+real	3m37.490s
+user	0m0.052s
+sys	0m0.012s
+hybrid OMP/ MPI, 4 MPI per node, OMP_NUM_THREAD=32
+time srun -n 8 -c 16  ./jacobi > hw2.out
+
+real	6m35.124s
+user	0m0.040s
+sys	0m0.020s
+pure OMP, 1 MPI per node, OMP_NUM_THREAD=64
+time srun -n 2 -c 64  ./jacobi > hw2.out
+
+real	25m57.302s
+user	0m0.044s
+sys	0m0.020s
