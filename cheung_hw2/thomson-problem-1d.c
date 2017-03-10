@@ -19,41 +19,6 @@
 - Simulation is from 0 to L by symmetry
 - actual number of particles is 2n */
 
-// initialize //////////////////////////////////////////////////////////
-
-static inline void init_particles(int n, double* x)
-{
-/* evenly spaced between -L to L, and x only holds the values between 0 to L */
-#pragma omp parallel for
-    for (int i = 0; i < n; i++) {
-        x[i] = (double)(2 * i + 1) / (2 * n - 1);
-    }
-}
-
-static inline double get_x_current(int n, double* x, int i, double ratio)
-{
-    /* i should never be the last, i.e. i != (n - 1)
-    and the first one is actually in the middle so it should never went pass 0
-    ratio is the ratio of x_range comparing to maximum possible dx */
-    const double x_min = (i == 0) ? 0. : x[i - 1];
-    const double x_max = x[i + 1];
-    const double x_range = x_max - x_min;
-    double x_current;
-    // full range between x_min and x_max
-    // do {
-    //     my_random = drand48();
-    //     x_current = x_min + my_random * x_range;
-    // } while (my_random == 0 || x_current == x[i]);
-    // only a narrow range around x[i]
-    do {
-        // the random number in parenthesis is in [-1, 1)
-        x_current = x[i] + (2 * drand48() - 1) * x_range / ratio;
-    // repeat when x_current fall out of range
-    } while (x_current <= x_min || x_current >= x_max);
-    // printf("%f\t%f\t%f\n", x_min, x_current, x_max); //debug
-    return x_current;
-}
-
 // Utilities ///////////////////////////////////////////////////////////
 
 double wall_time()
@@ -86,23 +51,76 @@ static inline void print_summary(char* filename, int n, int n_proc, int iteratio
 
 static inline void print_all_x(char* filename, int n, double* x)
 {
-    /* print all x values vs. the charge density lambda */
+    /* print all x values vs. the charge density lambda
+    the x value is chosen to be the middle point of each interval */
     if (!filename)
         return;
     FILE* fp;
     fp = fopen(filename, "w");
+
+    double dx;
 
     fprintf(fp, "i,x,lambda\n");
     // i = 0 needed to be treated differently since the interval is between -x_0 to x_0
     // over n to normalize for the increase in n while keeping total Q constant
     double lambda = 1 / (2 * x[0]) / n;
     // TODO: impove x
-    fprintf(fp, "%d,%f,%f\n", 0, x[0], lambda);
+    fprintf(fp, "%d,%f,%f\n", 0, 0, lambda);
     for (int i = 1; i < n; i++) {
-        lambda = 1 / (x[i] - x[i - 1]) / n;
-        fprintf(fp, "%d,%f,%f\n", i, x[i], lambda);
+        dx = x[i] - x[i - 1];
+        lambda = 1 / dx / n;
+        fprintf(fp, "%d,%f,%f\n", i, x[i] - dx / 2, lambda);
     }
     fclose(fp);
+}
+
+// initialize //////////////////////////////////////////////////////////
+
+static inline double get_x_current(int n, double* x, int i, double ratio)
+{
+    /* i should never be the last, i.e. i != (n - 1)
+    and the first one is actually in the middle so it should never went pass 0
+    ratio is the ratio of x_range comparing to maximum possible dx */
+    const double x_min = (i == 0) ? 0. : x[i - 1];
+    const double x_max = x[i + 1];
+    const double x_range = x_max - x_min;
+    double x_current;
+    // full range between x_min and x_max
+    // do {
+    //     my_random = drand48();
+    //     x_current = x_min + my_random * x_range;
+    // } while (my_random == 0 || x_current == x[i]);
+    // only a narrow range around x[i]
+    do {
+        // the random number in parenthesis is in [-1, 1)
+        x_current = x[i] + (2 * drand48() - 1) * x_range / ratio;
+        // repeat when x_current fall out of range
+    } while (x_current <= x_min || x_current >= x_max);
+    // printf("%f\t%f\t%f\n", x_min, x_current, x_max); //debug
+    return x_current;
+}
+
+static inline void init_particles(int n, double* x, double* global_potential, int n_proc, int rank)
+{
+    /* evenly spaced between -L to L, and x only holds the values between 0 to L
+calculate the potential in this configuration by factoring out identical intervals in O(n)
+V = \frac{1}{dx} \sum_{i = 1}^{N - 1}(\frac{N}{i} - 1), dx = \frac{L}{N-1}, N = 2n, L = 2 */
+    double potential = 0;
+    int N = 2 * n;
+#pragma omp parallel
+    {
+#pragma omp for
+        for (int i = 0; i < n; i++) {
+            x[i] = (double)(2 * i + 1) / (N - 1);
+        }
+// each MPI process do their own sum
+#pragma omp for reduction(+ : potential)
+        for (int i = rank + 1; i < N; i += n_proc) {
+            potential += (double)N / i - 1;
+        }
+    }
+    MPI_Allreduce(&potential, &(*global_potential), 1, MPI_DOUBLE, MPI_SUM, MPI_COMM_WORLD);
+    *global_potential = *global_potential * (N - 1) / 2;
 }
 
 // Interactions ////////////////////////////////////////////////////////
@@ -127,26 +145,6 @@ static inline double _coulumb(double xi, double xj)
     return (2 * (Vij + Vinj));
 }
 
-static inline double get_potential(int n, double* x)
-/* calculate the potential energy in the whole distribution in O(n^2) */
-{
-    double potential = 0;
-#pragma omp parallel reduction(+ : potential)
-    {
-#pragma omp for
-        for (int i = 0; i < n; i++) {
-            potential += _coulumb_self(x[i]);
-        }
-#pragma omp for
-        for (int i = 1; i < n; i++) {
-            for (int j = 0; j < i; j++) {
-                potential += _coulumb(x[i], x[j]);
-            }
-        }
-    }
-    return potential;
-}
-
 static inline double get_potential_delta(int n, double* x, int i, double x_current, int n_proc, int rank)
 {
     /* Calculate the change in potential energy in O(n) by
@@ -166,6 +164,29 @@ static inline double get_potential_delta(int n, double* x, int i, double x_curre
     }
     MPI_Allreduce(&potential_delta, &global_potential_delta, 1, MPI_DOUBLE, MPI_SUM, MPI_COMM_WORLD);
     return global_potential_delta;
+}
+
+static inline double get_potential(int n, double* x)
+{
+    /* calculate the potential energy in the whole distribution in O(n^2) 
+    **this one is not used** since the potential is initialized and potential_delta is added per iteration
+    MPI is not implemented here
+    for debug only */
+    double potential = 0;
+#pragma omp parallel reduction(+ : potential)
+    {
+#pragma omp for
+        for (int i = 0; i < n; i++) {
+            potential += _coulumb_self(x[i]);
+        }
+#pragma omp for
+        for (int i = 1; i < n; i++) {
+            for (int j = 0; j < i; j++) {
+                potential += _coulumb(x[i], x[j]);
+            }
+        }
+    }
+    return potential;
 }
 
 // Main ////////////////////////////////////////////////////////////////
@@ -247,13 +268,11 @@ int main(int argc, char* argv[])
     // initialize x
     double* x = (double*)malloc(n * sizeof(double));
     // save communication cost by not broadcast this in MPI
-    init_particles(n, x);
+    double potential = 0;
+    init_particles(n, x, &potential, n_proc, rank);
 
-    double potential;
+    // print
     if (rank == 0) {
-        // initialize potential
-        potential = get_potential(n, x);
-        // print
         printf("#OpenMP\t%d\n", omp_get_max_threads());
         printf("#MPI\t%d\n", n_proc);
         printf("n\t%d\n", n);
@@ -280,6 +299,9 @@ int main(int argc, char* argv[])
     // Main loop ///////////////////////////////////////////////////////
 
     int iterations = 0;
+    int write_potential_interval = t / n;
+    if (write_potential_interval == 0)
+        write_potential_interval = 1;
     // do loop to stop at a certain criteria
     // do {
     //     mutated = false;
@@ -315,7 +337,7 @@ int main(int argc, char* argv[])
             // potential_delta = potential_delta / n / n;
             // printf("%d\t%f\t%f\t%f\n", i, potential, potential_delta, x_current);
         }
-        if (rank == 0 && filename_potential)
+        if (rank == 0 && filename_potential && iterations % write_potential_interval == 0)
             fprintf(file_potential, "%d,%f\n", iterations, potential / n / n);
     }
     // } while (mutated);
@@ -334,8 +356,11 @@ int main(int argc, char* argv[])
         print_summary(filename_summary, n, n_proc, iterations, seconds, potential);
         print_all_x(filename_x, n, x);
         // close
-        if (filename_potential)
+        if (filename_potential) {
+            // write the last entry before closing
+            fprintf(file_potential, "%d,%f\n", iterations, potential);
             fclose(file_potential);
+        }
     }
 
     free(x);
